@@ -1,0 +1,53 @@
+body {
+    margin: 0;    
+}
+header {
+    background-color: #F1F0F9;
+    display: flex;
+}
+img {
+    padding: 10px;
+    display: inline;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+nav {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25em;
+    margin: 20px 20px 0px auto;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav li {
+    list-style: none;
+    padding: 30px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+.main-links-jg {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.dropdown-jg {
+    position: relative;
+}
+.dropdown-links-jg {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    background-color: #F1F0F9;
+    text-align: center;
+}
+.dropdown-jg:hover .dropdown-links-jg {
+    opacity: 100;
+    display: block; 
+}
+.dropdown-links-jg li:hover {
+    background-color: #8ABC8E;
+}
