@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    color: #412234;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFC857;
+}
+
+.recycletool {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    place-items: center;
+    background-color: #8ABC8E;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.options {
+    padding-bottom: 10px;
+}
+
+.zipinput {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.zipinput label {
+    padding: 5px;
+}
+
+.submit {
+    padding: 10px;
+}
+
+
+
+/* .dropdownbutton {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;;
+    border: none;
+    color: #412234;
+    font-family: 'Lato', sans-serif;
+}
+
+.dropdownitems {
+    display: none;
+    position: absolute;
+    background-color: #F1F0F9;
+    z-index: 1;
+    color: #412234;
+
+    
+}
+
+.dropdownitems a {
+    display: block;
+    padding: 5px;
+}
+
+.dropdown:hover .dropdownitems {
+    display: block;
+    justify-content: center;
+} */
