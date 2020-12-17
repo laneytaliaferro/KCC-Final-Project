@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+}
+
+.abouttitle {
+    font-family: 'Roboto Slab', serif;
+    border-bottom: solid 5px #412234;
+    border-radius: 5px;
+    background-color: #bdd9bf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutparagraph {
+    font-family: 'Lato', sans-serif;
+    border: solid 5px #412234;
+    border-radius: 5px;
+    background-color: #FFC857;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.aboutimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
