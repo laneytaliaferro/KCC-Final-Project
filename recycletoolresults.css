@@ -75,7 +75,7 @@ main {
     flex-direction: column;
 }
 
-.results: {
+.results {
     place-items: center;
 }
 
@@ -121,4 +121,5 @@ aside a:hover {
 .submit {
     padding: 10px;
 }
+
 
