@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
- 
+
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -22,7 +22,8 @@ a:hover {
     background-color: #8ABC8E;
     border-radius: 10px;
     padding-top: 20px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
+    margin: 15px;
 }
 
 .options {
