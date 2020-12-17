@@ -6,13 +6,14 @@
     <title>Etch-A-Sketch</title>
     <link href="style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href=link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="recycletoolstylesheet.css">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto&display=swap" rel="stylesheet" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <img src="images/HVR Logo.png" width="275px" height="100px">
+        <img class="header-logo" src="images/HVR Logo.png" width="275px" height="100px">
         <nav>
             <ul class="main-links-jg">
                 <li><a href="#">Home</a></li>
@@ -37,9 +38,45 @@
             </ul>
         </nav>
     </header>
-                                           
     
-     <footer>
+    <main>
+        <img class="home-image" src="images/recycling.jpg">
+        <div class="home-container">
+            <div>
+                <p class="home-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sed asperiores? Veritatis quisquam, perspiciatis consequuntur esse voluptas asperiores deserunt dolorem vero necessitatibus sit expedita eveniet! Aut numquam esse fuga accusamus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sed asperiores? Veritatis quisquam, perspiciatis consequuntur esse voluptas asperiores deserunt dolorem vero necessitatibus sit expedita eveniet! Aut numquam esse fuga accusamus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sed asperiores? Veritatis quisquam, perspiciatis consequuntur esse voluptas asperiores deserunt dolorem vero necessitatibus sit expedita eveniet! Aut numquam esse fuga accusamus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sed asperiores? Veritatis quisquam, perspiciatis consequuntur esse voluptas asperiores deserunt dolorem vero necessitatibus sit expedita eveniet! Aut numquam esse fuga accusamus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sed asperiores? Veritatis quisquam, perspiciatis consequuntur esse voluptas asperiores deserunt dolorem vero necessitatibus sit expedita eveniet! Aut numquam esse fuga accusamus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sed asperiores? Veritatis quisquam, perspiciatis consequuntur esse voluptas asperiores deserunt dolorem vero necessitatibus sit expedita eveniet! Aut numquam esse fuga accusamus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sed asperiores? Veritatis quisquam, perspiciatis consequuntur esse voluptas asperiores deserunt dolorem vero necessitatibus sit expedita eveniet! Aut numquam esse fuga accusamus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sed asperiores? Veritatis quisquam, perspiciatis consequuntur esse voluptas asperiores deserunt dolorem vero necessitatibus sit expedita eveniet! Aut numquam esse fuga accusamus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sed asperiores? Veritatis quisquam, perspiciatis consequuntur esse voluptas asperiores deserunt dolorem vero necessitatibus sit expedita eveniet! Aut numquam esse fuga accusamus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sed asperiores? Veritatis quisquam, perspiciatis consequuntur esse voluptas asperiores deserunt dolorem vero necessitatibus sit expedita eveniet! Aut numquam esse fuga accusamus.</p>
+            </div>
+        </div>
+        <form class="recycletool">
+            <p>What are you trying to recycle?</p>
+            <div class="options">
+                <div class="metal">
+                    <input type="radio" id="metal">
+                    <label for="metal">Metal</label>
+                </div>
+                <div class="plastic">
+                    <input type="radio" id="plastic">
+                    <label for="plastic">Plastic</label>
+                </div>
+                <div class="glass">
+                    <input type="radio" id="glass">
+                    <label for="glass">Glass</label>
+                </div>
+                <div class="cardboard">
+                    <input type="radio" id="cardboard">
+                    <label for="cardboard">Cardboard or Paper</label>
+                </div>
+            </div>
+            <div class="zipinput">    
+                <label for="zipcode">Enter your Zipcode</label>
+                <input type="text" id="zipcode">
+            </div> 
+            <div class="submit">
+                <button>Submit</button>
+            </div>
+        </form>    
+    </main>
+
+    <footer>
         <img class="footer-logo" src="images/HVR Logo.png" width="275px" height="100px">
         <section class="footer-info">
             <ul class="footer-address">
@@ -57,6 +94,5 @@
             <label class="email-input" for="email"></label>
                 <input type="text" id="email" name="email" placeholder="Email Address"><button type="submit">Submit</button>
         </section>
-    </footer>  
-                                                                                                            
+    </footer>
 </body>
