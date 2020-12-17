@@ -1,13 +1,14 @@
 body {
     margin: 0;    
 }
+
 /*Header and Nav*/
 
 header {
     background-color: #F1F0F9;
     display: flex;
 }
-img {
+.header-logo {
     padding: 10px;
     display: inline;
 }
@@ -52,6 +53,29 @@ nav li {
 }
 .dropdown-links-jg li:hover {
     background-color: #8ABC8E;
+}
+
+/*Home Page*/
+
+.home-container {
+    width:80%;
+    display: flex;
+    justify-content: center;
+}
+.home-image {
+    width: 100%;
+}
+.home-text {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    right: 10%;
+    background-color: #F1F0F9;
+    opacity: 0.85;
+    font-family: 'Lato';
+    border-radius: 3px;
+    padding: 20px;
+    font-size: 1.1em;
 }
 
 /*Footer*/
