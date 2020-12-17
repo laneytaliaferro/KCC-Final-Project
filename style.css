@@ -50,6 +50,7 @@ nav li {
 .dropdown-jg:hover .dropdown-links-jg {
     opacity: 100;
     display: block; 
+    z-index: 3;
 }
 .dropdown-links-jg li:hover {
     background-color: #8ABC8E;
