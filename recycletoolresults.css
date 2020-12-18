@@ -92,34 +92,6 @@ aside a:hover {
     color: #FFC857;
 }
 
-.recycletool {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #8ABC8E;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
-    
-}
 
-.options {
-    padding-bottom: 10px;
-}
-
-.zipinput {
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-}
-
-.zipinput label {
-    padding: 5px;
-}
-
-.submit {
-    padding: 10px;
-}
 
 
