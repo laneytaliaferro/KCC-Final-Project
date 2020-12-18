@@ -1,49 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Recycling Location Finder Toolt</title>
     <link rel="stylesheet" href="recycletoolstylesheet.css">
 </head>
+
 <body>
-    <form class="recycletool">
-        <p>What are you trying to recycle?</p>
-        <div class="options">
-            <div class="metal">
-                <input type="radio" id="metal">
-                <label for="metal">Metal</label>
-            </div>
-            <div class="plastic">
-                <input type="radio" id="plastic">
-                <label for="plastic">Plastic</label>
-            </div>
-            <div class="glass">
-                <input type="radio" id="glass">
-                <label for="glass">Glass</label>
-            </div>
-            <div class="cardboard">
-                <input type="radio" id="cardboard">
-                <label for="cardboard">Cardboard or Paper</label>
-            </div>
-        </div>
-        <div class="zipinput">    
-            <label for="zipcode">Enter your Zipcode</label>
-            <input type="text" id="zipcode">
-        </div> 
-        <div class="submit">
-            <button>Submit</button>
-        </div>
-    </form>
-    
-    <!-- <div class="dropdown">
-            <button class="dropdownbutton">Select</button>
-                <div class="dropdownitems">
-                    <a href="#">Metal</a>
-                    <a href="#">Glass</a>
-                    <a href="#">Plastic</a>
-                    <a href="#">Cardboard or Paper</a>
+    <header>
+        <img src="images/HVR-Logo.png" width="275px" height="100px">
+        <nav>
+            <ul class="main-links-jg">
+                <li><a href="#">Home</a></li>
+                <li class="dropdown-jg">
+                    <a href="#">How to Recycle</a>
+                    <ul class="dropdown-links-jg">
+                        <li><a href="#">Glass</a></li>
+                        <li><a href="#">Metal</a></li>
+                        <li><a href="#">Paper</a></li>
+                        <li><a href="#">Plastic</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-jg">
+                    <a href="#">Where to Recycle</a>
+                    <ul class="dropdown-links-jg">
+                        <li><a href="#">Locations</a></li>
+                        <li><a href="#">Events</a></li>
+                    </ul>
+                </li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form class="recycletool">
+            <h1>What are you trying to recycle?</h1>
+            <p> Select material from the list below:</p>
+            <div class="options">
+                <div class="metal">
+                    <input type="radio" id="metal">
+                    <label for="metal">Metal</label>
                 </div>
-        </div> -->
+                <div class="plastic">
+                    <input type="radio" id="plastic">
+                    <label for="plastic">Plastic</label>
+                </div>
+                <div class="glass">
+                    <input type="radio" id="glass">
+                    <label for="glass">Glass</label>
+                </div>
+                <div class="cardboard">
+                    <input type="radio" id="cardboard">
+                    <label for="cardboard">Cardboard or Paper</label>
+                </div>
+            </div>
+            <div class="zipinput">
+                <label for="zipcode">Enter your zipcode:</label>
+                <input type="text" id="zipcode">
+            </div>
+            <div class="submit">
+                <button type="subtmit" formaction="recycletoolresults.css">Submit</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <img class="footer-logo" src="images/HVR Logo.png" width="275px" height="100px">
+        <section class="footer-info">
+            <ul class="footer-address">
+                <li class="">Main Office:</li>
+                <li>123 Broadway, Kingston, NY 12401</li>
+                <li>Office Phone:</li>
+                <li>845-123-4567</li>
+            </ul>
+        </section>
+        <hr>
+        <section class="social-links">
+            <a class="social" href="http://www.facebook.com"><img src="images/facebook-3-xxl.png" width="50px"></a>
+            <a class="social" href="http://www.instagram.com"><img src="images/instagram-xxl.png" width="50px"></a>
+            <a class="social" href="http://www.twitter.com"><img src="images/twitter-3-xxl.png" width="50px"></a>
+            <label class="email-input" for="email"></label>
+            <input type="text" id="email" name="email" placeholder="Email Address"><button type="submit">Submit</button>
+        </section>
+    </footer>
 </body>
+
 </html>
