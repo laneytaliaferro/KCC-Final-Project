@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+.contacttitle {
+    font-family: 'Roboto Slab', serif;
+    border-bottom: solid 5px #412234;
+    border-radius: 5px;
+    background-color: #bdd9bf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactoptions {
+    font-family: 'Lato', sans-serif;
+    border: solid 5px #412234;
+    border-radius: 5px;
+    background-color: #FFC857;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contactform {
+    background-color: #FFC857;
+    border-radius: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contactformsubmit {
+    background-color: #bdd9bf;
+    border-radius: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contactformcomment {
+    background-color: #412234;
+    border-radius: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contactfooter {
+    font-family: 'Roboto Slab', serif;
+    border: solid 5px #412234;
+    border-radius: 5px;
+    background-color: #bdd9bf;
+    opacity: 0.65;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contactfooter
+img {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+

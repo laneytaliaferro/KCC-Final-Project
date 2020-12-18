@@ -1,0 +1,52 @@
+body {
+    background-color: #bdd9bf;
+}
+
+.reuse {
+    background-color: #ffc857;
+    font-family: 'Roboto Slab', serif;
+    border: 5px solid #412234;
+    border-radius: 5px;
+
+  
+}
+
+.reuseexamples {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glassimage{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.glassrecycle {
+    background-color: #ffc857;
+    font-family: 'Roboto Slab', serif;
+    border: 5px solid #412234;
+    border-radius: 5px;
+    
+}
+
+.glassdescription {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glassfooter {
+    font-family: 'Roboto Slab', serif;
+    border: solid 5px #412234;
+    border-radius: 5px;
+    background-color: #bdd9bf;
+    opacity: 0.65;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
