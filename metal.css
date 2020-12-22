@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 /* Grid Code */
 body {
     margin:0;
@@ -86,6 +89,7 @@ main img {
 
 main h1 {
     font-family: "Roboto Slab", serif;
+    text-align: center;
 }
 
 .reuse {
