@@ -5,6 +5,7 @@ header {
     background-color: #F1F0F9;
     display: flex;
 }
+
 img {
     padding: 10px;
     display: inline;
@@ -51,7 +52,42 @@ nav li {
 .dropdown-links-jg li:hover {
     background-color: #8ABC8E;
 }
-#back2Top {
+
+
+.container {
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    color: #FFC857;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+
+ #back2Top {
     width: 40px;
     line-height: 40px;
     overflow: hidden;
@@ -76,6 +112,7 @@ nav li {
     background-color: #FFC857;
     color: #000;
 }
+
 #page-container {
     position: relative;
     min-height: 100vh;
@@ -123,7 +160,7 @@ hr {
     background-color: black;
 }
 .social-links {
-    width: 50;
+    width: 50%;
     display: flex;
     justify-content: center;
     margin: 30px auto;
