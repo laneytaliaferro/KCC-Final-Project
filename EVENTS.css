@@ -160,7 +160,7 @@ hr {
     background-color: black;
 }
 .social-links {
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: center;
     margin: 30px auto;
