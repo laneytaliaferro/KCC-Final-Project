@@ -80,6 +80,7 @@ nav li {
     width: 100%;
 }
 .home-text {
+    line-height: 1.5;
     position: absolute;
     top: 40%;
     left: 10%;
