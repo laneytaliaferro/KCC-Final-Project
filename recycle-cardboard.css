@@ -93,9 +93,9 @@ main h1 {
 }
 
 .reuse {
-    background-color: #FFC857;
+    background-color:white;
     opacity:.9;
-    border-radius: 5px;
+    border-radius: 3px;
     padding: 20px;
     margin: 20px;
     display: flex;
@@ -105,9 +105,9 @@ main h1 {
 }
 
 .recycle {
-    background-color: #FFC857;
+    background-color:white;
     opacity:.9;
-    border-radius: 5px;
+    border-radius: 3px;
     padding: 20px;
     margin: 20px;
     display: flex;
