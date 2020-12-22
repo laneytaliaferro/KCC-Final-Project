@@ -11,10 +11,10 @@ body {
     "footer footer footer";
     grid-template-columns: 1fr 5fr 1fr;    
 }
+
 a {
     color: #412234;
 }
-
 a:hover {
     color: #FFC857;
     transition: .5s ease;
@@ -71,26 +71,49 @@ nav li {
     background-color: #8ABC8E;
 }
 
-/* Recycle Tool results */
+
+/*Recycle Cardboard Main*/
 main {
-    background-image: url("https://www.multivu.com/players/English/7089852-republic-services-southern-nevada-recycling-complex/image/republic-services-recycling-center-7-HR.jpg");
     grid-area: main;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    font-family: "Lato", sans-serif;
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/14/20/38/cardboard-1741136_1280.jpg")
+}
+
+main img {
+    max-width: 700px;
+}
+
+main h1 {
+    font-family: "Roboto Slab", serif;
+}
+
+.reuse {
+    background-color: #FFC857;
+    opacity:.9;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     place-items: center;
+    width: 75%;
 }
 
-.results {
-    place-items: center;
-    background: #8ABC8E;
-    opacity: .9;
-    padding: 20px;
+.recycle {
+    background-color: #FFC857;
+    opacity:.9;
     border-radius: 5px;
-    }
-
-/*Footer*/
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    place-items: center;
+    width: 75%;
+}
 
 footer {
     grid-area: footer;
@@ -137,13 +160,10 @@ input#email {
     height: 20px;
 }
 
-footer button {
+button {
     margin-top: 15px;
     height: 26px;
     background-color: #8abc8e;
     border-radius: 5px;
     border: none;
 }
-
-
-
