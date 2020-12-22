@@ -9,10 +9,8 @@ body {
     "header header header"
     "main main main"
     "footer footer footer";
-    grid-template-columns: 10% 80% 10%;
-    grid-template-rows: 15% 70% 15%;
-    font-family: 'Lato', sans-serif;
-}
+    grid-template-columns: 1fr 5fr 1fr;    
+
 a {
     color: #412234;
 }
@@ -92,11 +90,12 @@ main {
     border-radius: 5px;
     }
 
-/* Footer */
+/*Footer*/
+
 footer {
     grid-area: footer;
     display: flex;
-    justify-content: center;    
+    justify-content: center;
     flex-wrap: wrap;
     background-color: #412234;
 }
@@ -137,7 +136,8 @@ input#email {
     margin: 15px 0px auto 15px;
     height: 20px;
 }
-button {
+
+footer button {
     margin-top: 15px;
     height: 26px;
     background-color: #8abc8e;
