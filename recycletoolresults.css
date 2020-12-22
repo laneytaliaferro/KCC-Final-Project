@@ -147,5 +147,98 @@ footer button {
     border: none;
 }
 
+@media only screen and (max-width: 400px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        
+    }
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0px;        
+    }
+
+    header img {
+        max-width: 250px;
+        
+    }
+    nav {        
+        width: 100%;
+        height: 10%;
+        padding-bottom: 10px;
+    }
+    nav li {
+        padding: 2px;
+    }
+    .main-links-jg {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        place-content: flex-start;
+        width: 100%;        
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        place-content: flex-start;
+        width: 100%;
+    }
+
+    .results {
+        max-width: 350px;
+        margin: 10px;
+    }
+
+    .map {
+        overflow:hidden;    
+        padding-bottom:56.25%;    
+        position:relative;    
+        height:0;    
+    }
+    
+    .map iframe {    
+        left:0;    
+        top:0;    
+        height:100%;    
+        width:100%;    
+        position:absolute;    
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        place-content: center;
+        width: 100%;
+        padding-right: 10px;     
+    }
+
+    ul.footer-address li{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: .75em;
+    }
+
+    .social-links {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .footer-logo {
+        max-width: 250px;
+        margin: 5px;
+    }
+}
+
 
 
