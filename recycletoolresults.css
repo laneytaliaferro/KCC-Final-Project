@@ -7,7 +7,7 @@ body {
     display: grid;
     grid-template-areas:
     "header header header"
-    ". main aside"
+    "main main main"
     "footer footer footer";
     grid-template-columns: 1fr 5fr 1fr;    
 }
