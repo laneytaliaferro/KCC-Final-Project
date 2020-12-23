@@ -1,22 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+/* Grid Code */
 body {
-    margin: 0;
+    margin:0;
     display: grid;
     grid-template-areas:
     "header header header"
     "main main main"
     "footer footer footer";
-    grid-template-columns: 10% 80% 10%;
-    font-family: 'Lato', sans-serif;
+    grid-template-columns: 1fr 5fr 1fr;    
 }
 
-/*Header and Nav*/
-
+a {
+    color: #412234;
+}
+a:hover {
+    color: #FFC857;
+    transition: .5s ease;
+}
 header {
-    background-color: #F1F0F9;
     grid-area: header;
+    background-color: #F1F0F9;
     display: flex;
 }
-.header-logo {
+img {
     padding: 10px;
     display: inline;
 }
@@ -54,48 +62,60 @@ nav li {
     padding: 10px;
     background-color: #F1F0F9;
     text-align: center;
+    z-index: 2;
 }
 .dropdown-jg:hover .dropdown-links-jg {
     opacity: 100;
-    display: block; 
-    z-index: 3;
+    display: block;
 }
 .dropdown-links-jg li:hover {
     background-color: #8ABC8E;
-}
-
-/*Home Page*/
-
-.home-main {
-    overflow: scroll;
-    grid-area: main;
-}
-.home-container {
-    width:80%;
-    display: flex;
-    justify-content: center;
     
 }
-.home-image {
-    width: 100%;
-}
-.home-text {
-    line-height: 1.5;
-    position: absolute;
-    top: 40%;
-    left: 10%;
-    right: 10%;
-    background-color: white;
-    opacity: 0.85;
-    font-family: 'Lato';
-    border-radius: 3px;
-    padding: 20px;
-    font-size: 1.1em;
-    max-height: 500px;
-    overflow: scroll;
+
+
+/*Recycle Cardboard Main*/
+main {
+    grid-area: main;
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    font-family: "Lato", sans-serif;
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/14/20/38/cardboard-1741136_1280.jpg")
 }
 
-/*Footer*/
+main img {
+    max-width: 700px;
+}
+
+main h1 {
+    font-family: "Roboto Slab", serif;
+}
+
+.reuse {
+    background-color:white;
+    opacity:.9;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    width: 75%;   
+}
+
+.recycle {
+    background-color:white;
+    opacity:.9;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    place-items: center;
+    width: 75%;   
+}
 
 footer {
     grid-area: footer;
@@ -145,14 +165,13 @@ input#email {
     height: 20px;
 }
 
-footer button {
+button {
     margin-top: 15px;
     height: 26px;
     background-color: #8abc8e;
     border-radius: 5px;
     border: none;
 }
-
 
 @media only screen and (max-width: 400px) {
 
@@ -227,3 +246,4 @@ footer button {
         align-self: center;
     }
 }
+

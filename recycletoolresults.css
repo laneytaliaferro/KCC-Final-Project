@@ -9,9 +9,7 @@ body {
     "header header header"
     "main main main"
     "footer footer footer";
-    grid-template-columns: 10% 80% 10%;
-    grid-template-rows: 15% 70% 15%;
-    font-family: 'Lato', sans-serif;
+    grid-template-columns: 1fr 5fr 1fr;    
 }
 a {
     color: #412234;
@@ -64,6 +62,7 @@ nav li {
     padding: 10px;
     background-color: #F1F0F9;
     text-align: center;
+    z-index: 2;
 }
 .dropdown-jg:hover .dropdown-links-jg {
     opacity: 100;
@@ -89,14 +88,15 @@ main {
     background: #8ABC8E;
     opacity: .9;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 3px;
     }
 
-/* Footer */
+/*Footer*/
+
 footer {
     grid-area: footer;
     display: flex;
-    justify-content: center;    
+    justify-content: center;
     flex-wrap: wrap;
     background-color: #412234;
 }
@@ -137,13 +137,108 @@ input#email {
     margin: 15px 0px auto 15px;
     height: 20px;
 }
-button {
+
+footer button {
     margin-top: 15px;
     height: 26px;
     background-color: #8abc8e;
     border-radius: 5px;
     border: none;
 }
+
+@media only screen and (max-width: 400px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        
+    }
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0px;        
+    }
+
+    header img {
+        max-width: 250px;
+        
+    }
+    nav {        
+        width: 100%;
+        height: 10%;
+        padding-bottom: 10px;
+    }
+    nav li {
+        padding: 2px;
+    }
+    .main-links-jg {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        place-content: flex-start;
+        width: 100%;        
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        place-content: flex-start;
+        width: 100%;
+    }
+
+    .results {
+        max-width: 350px;
+        margin: 10px;
+    }
+
+    .map {
+        overflow:hidden;    
+        padding-bottom:56.25%;    
+        position:relative;    
+        height:0;    
+    }
+    
+    .map iframe {    
+        left:0;    
+        top:0;    
+        height:100%;    
+        width:100%;    
+        position:absolute;    
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        place-content: center;
+        width: 100%;
+        padding-right: 10px;     
+    }
+
+    ul.footer-address li{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: .75em;
+    }
+
+    .social-links {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .footer-logo {
+        max-width: 250px;
+        margin: 5px;
+    }
+}
+
 
 
 
