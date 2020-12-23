@@ -1,6 +1,6 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-
 
 /*Elle's Grid Code*/
 
@@ -15,6 +15,9 @@ body {
     grid-template-rows: 15% 70% 15%;
     font-family: 'Lato', sans-serif;
 }
+
+/* Header */
+
 header {
     grid-area: header;
     background-color: #F1F0F9;
@@ -70,9 +73,13 @@ nav li {
 /*Recycle Tool*/
 
 main {
+    background-image: url("https://www.multivu.com/players/English/7089852-republic-services-southern-nevada-recycling-complex/image/republic-services-recycling-center-7-HR.jpg");
     grid-area: main;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
-    justify-content: center;    
+    flex-direction: column;
+    place-items: center;  
     }
 
 main a {
@@ -90,12 +97,10 @@ main a:hover {
     flex-wrap: wrap;
     place-items: center;
     background-color: #8ABC8E;
-    /* max-width: 700px;
-    max-height: 700px; */
+    opacity: .9;
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
-
 }
 
 .options {
@@ -117,6 +122,7 @@ main a:hover {
     border-radius: 3px;
     font-size: 1em;
     color: #412234;
+    margin: 10px;
 }
 
 .submit button:hover {
@@ -131,7 +137,6 @@ footer {
     grid-area: footer;
     display: flex;
     justify-content: center;
-    /* width: 100%; */
     flex-wrap: wrap;
     background-color: #412234;
 }
@@ -172,7 +177,7 @@ input#email {
     margin: 15px 0px auto 15px;
     height: 20px;
 }
-button {
+footer button {
     margin-top: 15px;
     height: 26px;
     background-color: #8abc8e;
