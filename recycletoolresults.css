@@ -81,7 +81,6 @@ main {
     display: flex;
     flex-direction: column;
     place-items: center;
-    font-family: "Lato", sans-serif;
 }
 
 .results {
@@ -239,6 +238,7 @@ footer button {
         margin: 5px;
     }
 }
+
 
 
 
